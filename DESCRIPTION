@@ -1,0 +1,10 @@
+Package: translatorR
+Type: Package
+Title: translatoR
+Version: 0.1.0
+Author: Dirk U. Wulff
+Maintainer: Dirk U. Wulff <dirk.wulff@gmail.com>
+Description: Translates text from source to target language using GoogleTranslates
+License: What license is it under?
+LazyData: TRUE
+Imports: utils, RCurl	
