@@ -4,7 +4,7 @@
 #' @param source a string specifying the source language, e.g., "en" for English.
 #' @param target a string specifying the target language, e.g., "de" for German.
 #' 
-#' @example 
+#' @examples
 #' translatoR('Hello world!','en','de')
 #' 
 #' @export
