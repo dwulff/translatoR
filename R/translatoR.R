@@ -1,3 +1,13 @@
+#' Translate text from source to target language using GoogleTranslate
+#' 
+#' @param text a string containing the to be translated text.
+#' @param source a string specifying the source language, e.g., "en" for English.
+#' @param target a string specifying the target language, e.g., "de" for German.
+#' 
+#' @example 
+#' translatoR('Hello world!','en','de')
+#' 
+#' @export
 
 translatoR = function(text, source, target){
   txt = utils:::URLencode(text)
