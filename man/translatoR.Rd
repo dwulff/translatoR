@@ -20,4 +20,7 @@ Translate text from source to target language using GoogleTranslate
 translatoR('Hello world!','en','de')
 
 }
+\author{
+Dirk U. Wulff
+}
 

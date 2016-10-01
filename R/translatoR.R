@@ -8,6 +8,8 @@
 #' translatoR('Hello world!','en','de')
 #' 
 #' @export
+#' 
+#' @author Dirk U. Wulff
 
 translatoR = function(text, source, target){
   txt = utils:::URLencode(text)
