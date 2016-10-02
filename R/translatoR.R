@@ -24,6 +24,7 @@ translatoR = function(text, source, target){
   tra = gsub('\\[\\[\\[\\"','',tra)
   tra = gsub('\"','',tra)
   tra = paste(tra,collapse='')
+  if(grepl('<title>Error 413 (Request Entity Too Large)',tra)) stop('Request Entity Too Large. Use smaller text snippets.')
   return(tra)
   }
 
